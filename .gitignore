@@ -1,0 +1,18 @@
+# Local files and secrets are intentionally excluded
+.env
+.env.*
+!.env.example
+/storage/mailbox/*
+!/storage/mailbox/.gitkeep
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/database/backup.sql
+/tests/results*.json
+/tests/smtp*.eml
+/tests/smtp_failure_result.json
+/tests/cleanup-result.json
+/tests/__pycache__/
+__pycache__/
+*.py[cod]
+docs/evidence/*.eml
+docs/evidence/*.json

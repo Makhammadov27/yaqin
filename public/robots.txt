@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /index.php?route=users
+Disallow: /index.php?route=files
+Disallow: /index.php?route=complaints
+Disallow: /index.php?route=decisions
+Disallow: /index.php?route=login
+Disallow: /index.php?route=register
